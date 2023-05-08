@@ -1,9 +1,9 @@
 //
 //  LYVerticalCenterTextFieldCell.swift
-//  CleanMyMac
+//  cartool
 //
-//  Created by liyu on 2022/3/3.
-//  Copyright © 2022 liyu. All rights reserved.
+//  Created by fisher on 2022/3/3.
+//  Copyright © 2022 fisher. All rights reserved.
 //
 
 import Cocoa

@@ -1,8 +1,9 @@
 //
 //  LYWindow.swift
-//  CleanMyMac
+//  cartool
 //
-//  Created by liyu on 2023/5/1.
+//  Created by fisher on 2023/5/1.
+//  Copyright © 2023 fisher. All rights reserved.
 //
 
 import Cocoa
