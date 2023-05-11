@@ -17,8 +17,8 @@ class LYWindow: NSWindow {
         let miniaturizeButton = standardWindowButton(.miniaturizeButton)
         let zoomButton = standardWindowButton(.zoomButton)
         
-        let marginTop: CGFloat = 8
-        let marginLeft: CGFloat = 10
+        let marginTop: CGFloat = 12
+        let marginLeft: CGFloat = 12
         let margin: CGFloat = 20
         
         // 关闭自动布局
