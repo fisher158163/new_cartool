@@ -31,12 +31,6 @@ class ViewController: NSViewController {
         }
     }
     
-    override var representedObject: Any? {
-        didSet {
-           
-        }
-    }
-    
     func executeCartool(_ path: String) {
         let dir = mkdir(filePath: path)
         if dir.isEmpty{
@@ -45,9 +39,7 @@ class ViewController: NSViewController {
         let decodePath = path.removingPercentEncoding ?? ""
         Shell.execmd(carToolPath(), arguments: [decodePath, dir]) { (str) in
         }
-        
     }
-    
     
     // cartool路径
     func carToolPath() -> String {
